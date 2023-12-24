@@ -10,6 +10,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardModule } from 'primeng/card';
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { CardModule } from 'primeng/card';
     ButtonModule, 
     InputTextModule,
     StyleClassModule,
-    CardModule
+    CardModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
